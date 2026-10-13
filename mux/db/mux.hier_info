@@ -1,0 +1,8 @@
+|mux
+f <= f~0.DB_MAX_OUTPUT_PORT_TYPE
+i0 => h.IN1
+i1 => g.IN0
+s0 => g.IN1
+s0 => h.IN0
+
+
