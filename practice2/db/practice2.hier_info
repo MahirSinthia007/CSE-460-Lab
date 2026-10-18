@@ -1,0 +1,12 @@
+|practice2
+x1 => l.IN1
+x2 => k.IN0
+x2 => i.IN1
+x3 => l.IN0
+x3 => j.IN0
+x3 => i.IN0
+x4 => k.IN1
+x4 => j.IN1
+f <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+
+
