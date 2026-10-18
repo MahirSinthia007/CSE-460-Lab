@@ -1,0 +1,8 @@
+|practice
+f <= comb~0.DB_MAX_OUTPUT_PORT_TYPE
+x1 => h.IN1
+x2 => h.IN0
+x2 => g.IN1
+x3 => g.IN0
+
+
