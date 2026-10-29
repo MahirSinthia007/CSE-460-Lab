@@ -1,0 +1,7 @@
+|twoistoonemux
+f <= f~0.DB_MAX_OUTPUT_PORT_TYPE
+w[1] => f~0.DATAA
+w[0] => f~0.DATAB
+s => f~0.OUTPUTSELECT
+
+
