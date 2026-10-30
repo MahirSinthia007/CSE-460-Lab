@@ -1,0 +1,15 @@
+|counter
+rst => f[3]~reg0.ACLR
+rst => f[2]~reg0.ACLR
+rst => f[1]~reg0.ACLR
+rst => f[0]~reg0.ACLR
+clk => f[3]~reg0.CLK
+clk => f[2]~reg0.CLK
+clk => f[1]~reg0.CLK
+clk => f[0]~reg0.CLK
+f[0] <= f[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+f[1] <= f[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+f[2] <= f[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+f[3] <= f[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+

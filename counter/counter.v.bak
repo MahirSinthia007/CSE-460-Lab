@@ -1,0 +1,14 @@
+module counter(rst,clk,f);
+ input rst,clk;
+ output reg [3:0]f;
+ 
+ always @(posedge rst,posedge clk)
+  begin
+  if (rst==1)
+    f=0;
+   else
+    f=f+1
+  
+  end
+endmodule
+
