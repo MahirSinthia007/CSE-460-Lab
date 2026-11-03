@@ -1,0 +1,15 @@
+|FSM
+Clock => y[2]~reg0.CLK
+Clock => y[1]~reg0.CLK
+Resetn => y[2]~reg0.ACLR
+Resetn => y[1]~reg0.ACLR
+w => Mux0.IN2
+w => Mux0.IN3
+w => Mux1.IN3
+z <= z$latch.DB_MAX_OUTPUT_PORT_TYPE
+y[1] <= y[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+y[2] <= y[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Y[1] <= Mux1.DB_MAX_OUTPUT_PORT_TYPE
+Y[2] <= Mux0.DB_MAX_OUTPUT_PORT_TYPE
+
+

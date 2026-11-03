@@ -1,0 +1,76 @@
+--------------------------------------------------------------------------------------
+Timing Analyzer Summary
+--------------------------------------------------------------------------------------
+
+Type           : Worst-case tsu
+Slack          : N/A
+Required Time  : None
+Actual Time    : 1.200 ns
+From           : w
+To             : y[2]~reg0
+From Clock     : --
+To Clock       : Clock
+Failed Paths   : 0
+
+Type           : Worst-case tco
+Slack          : N/A
+Required Time  : None
+Actual Time    : 8.300 ns
+From           : z$latch
+To             : z
+From Clock     : Clock
+To Clock       : --
+Failed Paths   : 0
+
+Type           : Worst-case tpd
+Slack          : N/A
+Required Time  : None
+Actual Time    : 7.200 ns
+From           : w
+To             : Y[2]
+From Clock     : --
+To Clock       : --
+Failed Paths   : 0
+
+Type           : Worst-case th
+Slack          : N/A
+Required Time  : None
+Actual Time    : -0.100 ns
+From           : w
+To             : y[2]~reg0
+From Clock     : --
+To Clock       : Clock
+Failed Paths   : 0
+
+Type           : Clock Setup: 'Clock'
+Slack          : N/A
+Required Time  : None
+Actual Time    : Restricted to 250.00 MHz ( period = 4.000 ns )
+From           : y[1]~reg0
+To             : y[2]~reg0
+From Clock     : Clock
+To Clock       : Clock
+Failed Paths   : 0
+
+Type           : Clock Hold: 'Clock'
+Slack          : Not operational: Clock Skew > Data Delay
+Required Time  : None
+Actual Time    : N/A
+From           : y[2]~reg0
+To             : z$latch
+From Clock     : Clock
+To Clock       : Clock
+Failed Paths   : 1
+
+Type           : Total number of failed paths
+Slack          : 
+Required Time  : 
+Actual Time    : 
+From           : 
+To             : 
+From Clock     : 
+To Clock       : 
+Failed Paths   : 1
+
+--------------------------------------------------------------------------------------
+
