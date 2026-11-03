@@ -1,0 +1,11 @@
+|examtwo
+w[0] => Decoder0.IN4
+w[1] => Decoder0.IN3
+w[2] => Decoder0.IN2
+w[3] => Decoder0.IN1
+w[4] => Decoder0.IN0
+y[0] <= y[0]$latch.DB_MAX_OUTPUT_PORT_TYPE
+y[1] <= y[1]$latch.DB_MAX_OUTPUT_PORT_TYPE
+y[2] <= y[2]$latch.DB_MAX_OUTPUT_PORT_TYPE
+
+
